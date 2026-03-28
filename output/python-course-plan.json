@@ -1,0 +1,1055 @@
+{
+  "generatedAt": "2026-03-28T16:27:02.712Z",
+  "blueprint": {
+    "courseTitle": "Python Programming Mastery: Beginner to Advanced",
+    "targetAudience": [
+      "Absolute beginners",
+      "Students preparing for software roles",
+      "Working professionals transitioning to Python",
+      "Data/automation enthusiasts"
+    ],
+    "courseOutcomes": [
+      "Write clean, production-ready Python code",
+      "Understand core CS concepts using Python",
+      "Build CLI tools, APIs, data workflows, and tests",
+      "Package and deploy Python projects"
+    ],
+    "modules": [
+      {
+        "id": "M1",
+        "title": "Orientation & Setup",
+        "topics": [
+          "What is Python and where it is used",
+          "Install Python, VS Code, and extensions",
+          "Virtual environments and pip basics",
+          "Running scripts, REPL, notebooks"
+        ]
+      },
+      {
+        "id": "M2",
+        "title": "Python Fundamentals",
+        "topics": [
+          "Syntax, variables, comments",
+          "Data types: int, float, str, bool, None",
+          "Input/output and formatting",
+          "Type conversion and operators"
+        ]
+      },
+      {
+        "id": "M3",
+        "title": "Control Flow",
+        "topics": [
+          "if/elif/else and logical conditions",
+          "for and while loops",
+          "break, continue, pass",
+          "match-case pattern matching"
+        ]
+      },
+      {
+        "id": "M4",
+        "title": "Collections & Comprehensions",
+        "topics": [
+          "Lists, tuples, sets, dictionaries",
+          "Indexing, slicing, iteration",
+          "List/dict/set comprehensions",
+          "Nested data structures"
+        ]
+      },
+      {
+        "id": "M5",
+        "title": "Functions and Scope",
+        "topics": [
+          "Defining and calling functions",
+          "Parameters, args, kwargs",
+          "Return values and multiple returns",
+          "Scope, closures, lambda functions"
+        ]
+      },
+      {
+        "id": "M6",
+        "title": "Strings, Files, and Error Handling",
+        "topics": [
+          "String methods and regex intro",
+          "Reading/writing files",
+          "Working with CSV and JSON",
+          "Exceptions and custom exceptions"
+        ]
+      },
+      {
+        "id": "M7",
+        "title": "Object-Oriented Programming",
+        "topics": [
+          "Classes, objects, attributes, methods",
+          "Inheritance, polymorphism, composition",
+          "Dunder methods (__init__, __str__, etc.)",
+          "Dataclasses and type hints"
+        ]
+      },
+      {
+        "id": "M8",
+        "title": "Modules, Packages, and Environments",
+        "topics": [
+          "Creating modules and importing patterns",
+          "Package structure and __init__.py",
+          "Dependency management with pip",
+          "Project layout best practices"
+        ]
+      },
+      {
+        "id": "M9",
+        "title": "Testing, Debugging, and Quality",
+        "topics": [
+          "Debugging with print and pdb",
+          "Unit tests with unittest/pytest",
+          "Linting and formatting (ruff/black)",
+          "Logging and error reporting"
+        ]
+      },
+      {
+        "id": "M10",
+        "title": "Advanced Python",
+        "topics": [
+          "Iterators, generators, decorators",
+          "Context managers",
+          "Concurrency: threading, multiprocessing, asyncio",
+          "Performance basics and profiling"
+        ]
+      },
+      {
+        "id": "M11",
+        "title": "Databases, APIs, and Automation",
+        "topics": [
+          "SQLite/PostgreSQL basics with Python",
+          "REST API consumption with requests/httpx",
+          "Build API with FastAPI/Flask",
+          "Automation scripts and scheduling"
+        ]
+      },
+      {
+        "id": "M12",
+        "title": "Data, AI, and Capstone",
+        "topics": [
+          "NumPy and pandas essentials",
+          "Visualization with matplotlib/seaborn",
+          "Intro to ML workflow with scikit-learn",
+          "Capstone planning, implementation, deployment"
+        ]
+      }
+    ]
+  },
+  "videos": [
+    {
+      "sequence": 1,
+      "moduleId": "M1",
+      "moduleTitle": "Orientation & Setup",
+      "topic": "What is Python and where it is used",
+      "videoTitle": "M1.1 What is Python and where it is used",
+      "suggestedDurationMin": 12,
+      "objectives": [
+        "Understand what is python and where it is used with real examples.",
+        "Implement one guided coding walkthrough.",
+        "Complete one mini-practice challenge."
+      ],
+      "assets": [
+        "Slides",
+        "Code demo",
+        "Quiz",
+        "Assignment"
+      ]
+    },
+    {
+      "sequence": 2,
+      "moduleId": "M1",
+      "moduleTitle": "Orientation & Setup",
+      "topic": "Install Python, VS Code, and extensions",
+      "videoTitle": "M1.2 Install Python, VS Code, and extensions",
+      "suggestedDurationMin": 16,
+      "objectives": [
+        "Understand install python, vs code, and extensions with real examples.",
+        "Implement one guided coding walkthrough.",
+        "Complete one mini-practice challenge."
+      ],
+      "assets": [
+        "Slides",
+        "Code demo",
+        "Quiz",
+        "Assignment"
+      ]
+    },
+    {
+      "sequence": 3,
+      "moduleId": "M1",
+      "moduleTitle": "Orientation & Setup",
+      "topic": "Virtual environments and pip basics",
+      "videoTitle": "M1.3 Virtual environments and pip basics",
+      "suggestedDurationMin": 20,
+      "objectives": [
+        "Understand virtual environments and pip basics with real examples.",
+        "Implement one guided coding walkthrough.",
+        "Complete one mini-practice challenge."
+      ],
+      "assets": [
+        "Slides",
+        "Code demo",
+        "Quiz",
+        "Assignment"
+      ]
+    },
+    {
+      "sequence": 4,
+      "moduleId": "M1",
+      "moduleTitle": "Orientation & Setup",
+      "topic": "Running scripts, REPL, notebooks",
+      "videoTitle": "M1.4 Running scripts, REPL, notebooks",
+      "suggestedDurationMin": 24,
+      "objectives": [
+        "Understand running scripts, repl, notebooks with real examples.",
+        "Implement one guided coding walkthrough.",
+        "Complete one mini-practice challenge."
+      ],
+      "assets": [
+        "Slides",
+        "Code demo",
+        "Quiz",
+        "Assignment"
+      ]
+    },
+    {
+      "sequence": 5,
+      "moduleId": "M2",
+      "moduleTitle": "Python Fundamentals",
+      "topic": "Syntax, variables, comments",
+      "videoTitle": "M2.1 Syntax, variables, comments",
+      "suggestedDurationMin": 16,
+      "objectives": [
+        "Understand syntax, variables, comments with real examples.",
+        "Implement one guided coding walkthrough.",
+        "Complete one mini-practice challenge."
+      ],
+      "assets": [
+        "Slides",
+        "Code demo",
+        "Quiz",
+        "Assignment"
+      ]
+    },
+    {
+      "sequence": 6,
+      "moduleId": "M2",
+      "moduleTitle": "Python Fundamentals",
+      "topic": "Data types: int, float, str, bool, None",
+      "videoTitle": "M2.2 Data types: int, float, str, bool, None",
+      "suggestedDurationMin": 20,
+      "objectives": [
+        "Understand data types: int, float, str, bool, none with real examples.",
+        "Implement one guided coding walkthrough.",
+        "Complete one mini-practice challenge."
+      ],
+      "assets": [
+        "Slides",
+        "Code demo",
+        "Quiz",
+        "Assignment"
+      ]
+    },
+    {
+      "sequence": 7,
+      "moduleId": "M2",
+      "moduleTitle": "Python Fundamentals",
+      "topic": "Input/output and formatting",
+      "videoTitle": "M2.3 Input/output and formatting",
+      "suggestedDurationMin": 24,
+      "objectives": [
+        "Understand input/output and formatting with real examples.",
+        "Implement one guided coding walkthrough.",
+        "Complete one mini-practice challenge."
+      ],
+      "assets": [
+        "Slides",
+        "Code demo",
+        "Quiz",
+        "Assignment"
+      ]
+    },
+    {
+      "sequence": 8,
+      "moduleId": "M2",
+      "moduleTitle": "Python Fundamentals",
+      "topic": "Type conversion and operators",
+      "videoTitle": "M2.4 Type conversion and operators",
+      "suggestedDurationMin": 12,
+      "objectives": [
+        "Understand type conversion and operators with real examples.",
+        "Implement one guided coding walkthrough.",
+        "Complete one mini-practice challenge."
+      ],
+      "assets": [
+        "Slides",
+        "Code demo",
+        "Quiz",
+        "Assignment"
+      ]
+    },
+    {
+      "sequence": 9,
+      "moduleId": "M3",
+      "moduleTitle": "Control Flow",
+      "topic": "if/elif/else and logical conditions",
+      "videoTitle": "M3.1 if/elif/else and logical conditions",
+      "suggestedDurationMin": 20,
+      "objectives": [
+        "Understand if/elif/else and logical conditions with real examples.",
+        "Implement one guided coding walkthrough.",
+        "Complete one mini-practice challenge."
+      ],
+      "assets": [
+        "Slides",
+        "Code demo",
+        "Quiz",
+        "Assignment"
+      ]
+    },
+    {
+      "sequence": 10,
+      "moduleId": "M3",
+      "moduleTitle": "Control Flow",
+      "topic": "for and while loops",
+      "videoTitle": "M3.2 for and while loops",
+      "suggestedDurationMin": 24,
+      "objectives": [
+        "Understand for and while loops with real examples.",
+        "Implement one guided coding walkthrough.",
+        "Complete one mini-practice challenge."
+      ],
+      "assets": [
+        "Slides",
+        "Code demo",
+        "Quiz",
+        "Assignment"
+      ]
+    },
+    {
+      "sequence": 11,
+      "moduleId": "M3",
+      "moduleTitle": "Control Flow",
+      "topic": "break, continue, pass",
+      "videoTitle": "M3.3 break, continue, pass",
+      "suggestedDurationMin": 12,
+      "objectives": [
+        "Understand break, continue, pass with real examples.",
+        "Implement one guided coding walkthrough.",
+        "Complete one mini-practice challenge."
+      ],
+      "assets": [
+        "Slides",
+        "Code demo",
+        "Quiz",
+        "Assignment"
+      ]
+    },
+    {
+      "sequence": 12,
+      "moduleId": "M3",
+      "moduleTitle": "Control Flow",
+      "topic": "match-case pattern matching",
+      "videoTitle": "M3.4 match-case pattern matching",
+      "suggestedDurationMin": 16,
+      "objectives": [
+        "Understand match-case pattern matching with real examples.",
+        "Implement one guided coding walkthrough.",
+        "Complete one mini-practice challenge."
+      ],
+      "assets": [
+        "Slides",
+        "Code demo",
+        "Quiz",
+        "Assignment"
+      ]
+    },
+    {
+      "sequence": 13,
+      "moduleId": "M4",
+      "moduleTitle": "Collections & Comprehensions",
+      "topic": "Lists, tuples, sets, dictionaries",
+      "videoTitle": "M4.1 Lists, tuples, sets, dictionaries",
+      "suggestedDurationMin": 24,
+      "objectives": [
+        "Understand lists, tuples, sets, dictionaries with real examples.",
+        "Implement one guided coding walkthrough.",
+        "Complete one mini-practice challenge."
+      ],
+      "assets": [
+        "Slides",
+        "Code demo",
+        "Quiz",
+        "Assignment"
+      ]
+    },
+    {
+      "sequence": 14,
+      "moduleId": "M4",
+      "moduleTitle": "Collections & Comprehensions",
+      "topic": "Indexing, slicing, iteration",
+      "videoTitle": "M4.2 Indexing, slicing, iteration",
+      "suggestedDurationMin": 12,
+      "objectives": [
+        "Understand indexing, slicing, iteration with real examples.",
+        "Implement one guided coding walkthrough.",
+        "Complete one mini-practice challenge."
+      ],
+      "assets": [
+        "Slides",
+        "Code demo",
+        "Quiz",
+        "Assignment"
+      ]
+    },
+    {
+      "sequence": 15,
+      "moduleId": "M4",
+      "moduleTitle": "Collections & Comprehensions",
+      "topic": "List/dict/set comprehensions",
+      "videoTitle": "M4.3 List/dict/set comprehensions",
+      "suggestedDurationMin": 16,
+      "objectives": [
+        "Understand list/dict/set comprehensions with real examples.",
+        "Implement one guided coding walkthrough.",
+        "Complete one mini-practice challenge."
+      ],
+      "assets": [
+        "Slides",
+        "Code demo",
+        "Quiz",
+        "Assignment"
+      ]
+    },
+    {
+      "sequence": 16,
+      "moduleId": "M4",
+      "moduleTitle": "Collections & Comprehensions",
+      "topic": "Nested data structures",
+      "videoTitle": "M4.4 Nested data structures",
+      "suggestedDurationMin": 20,
+      "objectives": [
+        "Understand nested data structures with real examples.",
+        "Implement one guided coding walkthrough.",
+        "Complete one mini-practice challenge."
+      ],
+      "assets": [
+        "Slides",
+        "Code demo",
+        "Quiz",
+        "Assignment"
+      ]
+    },
+    {
+      "sequence": 17,
+      "moduleId": "M5",
+      "moduleTitle": "Functions and Scope",
+      "topic": "Defining and calling functions",
+      "videoTitle": "M5.1 Defining and calling functions",
+      "suggestedDurationMin": 12,
+      "objectives": [
+        "Understand defining and calling functions with real examples.",
+        "Implement one guided coding walkthrough.",
+        "Complete one mini-practice challenge."
+      ],
+      "assets": [
+        "Slides",
+        "Code demo",
+        "Quiz",
+        "Assignment"
+      ]
+    },
+    {
+      "sequence": 18,
+      "moduleId": "M5",
+      "moduleTitle": "Functions and Scope",
+      "topic": "Parameters, args, kwargs",
+      "videoTitle": "M5.2 Parameters, args, kwargs",
+      "suggestedDurationMin": 16,
+      "objectives": [
+        "Understand parameters, args, kwargs with real examples.",
+        "Implement one guided coding walkthrough.",
+        "Complete one mini-practice challenge."
+      ],
+      "assets": [
+        "Slides",
+        "Code demo",
+        "Quiz",
+        "Assignment"
+      ]
+    },
+    {
+      "sequence": 19,
+      "moduleId": "M5",
+      "moduleTitle": "Functions and Scope",
+      "topic": "Return values and multiple returns",
+      "videoTitle": "M5.3 Return values and multiple returns",
+      "suggestedDurationMin": 20,
+      "objectives": [
+        "Understand return values and multiple returns with real examples.",
+        "Implement one guided coding walkthrough.",
+        "Complete one mini-practice challenge."
+      ],
+      "assets": [
+        "Slides",
+        "Code demo",
+        "Quiz",
+        "Assignment"
+      ]
+    },
+    {
+      "sequence": 20,
+      "moduleId": "M5",
+      "moduleTitle": "Functions and Scope",
+      "topic": "Scope, closures, lambda functions",
+      "videoTitle": "M5.4 Scope, closures, lambda functions",
+      "suggestedDurationMin": 24,
+      "objectives": [
+        "Understand scope, closures, lambda functions with real examples.",
+        "Implement one guided coding walkthrough.",
+        "Complete one mini-practice challenge."
+      ],
+      "assets": [
+        "Slides",
+        "Code demo",
+        "Quiz",
+        "Assignment"
+      ]
+    },
+    {
+      "sequence": 21,
+      "moduleId": "M6",
+      "moduleTitle": "Strings, Files, and Error Handling",
+      "topic": "String methods and regex intro",
+      "videoTitle": "M6.1 String methods and regex intro",
+      "suggestedDurationMin": 16,
+      "objectives": [
+        "Understand string methods and regex intro with real examples.",
+        "Implement one guided coding walkthrough.",
+        "Complete one mini-practice challenge."
+      ],
+      "assets": [
+        "Slides",
+        "Code demo",
+        "Quiz",
+        "Assignment"
+      ]
+    },
+    {
+      "sequence": 22,
+      "moduleId": "M6",
+      "moduleTitle": "Strings, Files, and Error Handling",
+      "topic": "Reading/writing files",
+      "videoTitle": "M6.2 Reading/writing files",
+      "suggestedDurationMin": 20,
+      "objectives": [
+        "Understand reading/writing files with real examples.",
+        "Implement one guided coding walkthrough.",
+        "Complete one mini-practice challenge."
+      ],
+      "assets": [
+        "Slides",
+        "Code demo",
+        "Quiz",
+        "Assignment"
+      ]
+    },
+    {
+      "sequence": 23,
+      "moduleId": "M6",
+      "moduleTitle": "Strings, Files, and Error Handling",
+      "topic": "Working with CSV and JSON",
+      "videoTitle": "M6.3 Working with CSV and JSON",
+      "suggestedDurationMin": 24,
+      "objectives": [
+        "Understand working with csv and json with real examples.",
+        "Implement one guided coding walkthrough.",
+        "Complete one mini-practice challenge."
+      ],
+      "assets": [
+        "Slides",
+        "Code demo",
+        "Quiz",
+        "Assignment"
+      ]
+    },
+    {
+      "sequence": 24,
+      "moduleId": "M6",
+      "moduleTitle": "Strings, Files, and Error Handling",
+      "topic": "Exceptions and custom exceptions",
+      "videoTitle": "M6.4 Exceptions and custom exceptions",
+      "suggestedDurationMin": 12,
+      "objectives": [
+        "Understand exceptions and custom exceptions with real examples.",
+        "Implement one guided coding walkthrough.",
+        "Complete one mini-practice challenge."
+      ],
+      "assets": [
+        "Slides",
+        "Code demo",
+        "Quiz",
+        "Assignment"
+      ]
+    },
+    {
+      "sequence": 25,
+      "moduleId": "M7",
+      "moduleTitle": "Object-Oriented Programming",
+      "topic": "Classes, objects, attributes, methods",
+      "videoTitle": "M7.1 Classes, objects, attributes, methods",
+      "suggestedDurationMin": 20,
+      "objectives": [
+        "Understand classes, objects, attributes, methods with real examples.",
+        "Implement one guided coding walkthrough.",
+        "Complete one mini-practice challenge."
+      ],
+      "assets": [
+        "Slides",
+        "Code demo",
+        "Quiz",
+        "Assignment"
+      ]
+    },
+    {
+      "sequence": 26,
+      "moduleId": "M7",
+      "moduleTitle": "Object-Oriented Programming",
+      "topic": "Inheritance, polymorphism, composition",
+      "videoTitle": "M7.2 Inheritance, polymorphism, composition",
+      "suggestedDurationMin": 24,
+      "objectives": [
+        "Understand inheritance, polymorphism, composition with real examples.",
+        "Implement one guided coding walkthrough.",
+        "Complete one mini-practice challenge."
+      ],
+      "assets": [
+        "Slides",
+        "Code demo",
+        "Quiz",
+        "Assignment"
+      ]
+    },
+    {
+      "sequence": 27,
+      "moduleId": "M7",
+      "moduleTitle": "Object-Oriented Programming",
+      "topic": "Dunder methods (__init__, __str__, etc.)",
+      "videoTitle": "M7.3 Dunder methods (__init__, __str__, etc.)",
+      "suggestedDurationMin": 12,
+      "objectives": [
+        "Understand dunder methods (__init__, __str__, etc.) with real examples.",
+        "Implement one guided coding walkthrough.",
+        "Complete one mini-practice challenge."
+      ],
+      "assets": [
+        "Slides",
+        "Code demo",
+        "Quiz",
+        "Assignment"
+      ]
+    },
+    {
+      "sequence": 28,
+      "moduleId": "M7",
+      "moduleTitle": "Object-Oriented Programming",
+      "topic": "Dataclasses and type hints",
+      "videoTitle": "M7.4 Dataclasses and type hints",
+      "suggestedDurationMin": 16,
+      "objectives": [
+        "Understand dataclasses and type hints with real examples.",
+        "Implement one guided coding walkthrough.",
+        "Complete one mini-practice challenge."
+      ],
+      "assets": [
+        "Slides",
+        "Code demo",
+        "Quiz",
+        "Assignment"
+      ]
+    },
+    {
+      "sequence": 29,
+      "moduleId": "M8",
+      "moduleTitle": "Modules, Packages, and Environments",
+      "topic": "Creating modules and importing patterns",
+      "videoTitle": "M8.1 Creating modules and importing patterns",
+      "suggestedDurationMin": 24,
+      "objectives": [
+        "Understand creating modules and importing patterns with real examples.",
+        "Implement one guided coding walkthrough.",
+        "Complete one mini-practice challenge."
+      ],
+      "assets": [
+        "Slides",
+        "Code demo",
+        "Quiz",
+        "Assignment"
+      ]
+    },
+    {
+      "sequence": 30,
+      "moduleId": "M8",
+      "moduleTitle": "Modules, Packages, and Environments",
+      "topic": "Package structure and __init__.py",
+      "videoTitle": "M8.2 Package structure and __init__.py",
+      "suggestedDurationMin": 12,
+      "objectives": [
+        "Understand package structure and __init__.py with real examples.",
+        "Implement one guided coding walkthrough.",
+        "Complete one mini-practice challenge."
+      ],
+      "assets": [
+        "Slides",
+        "Code demo",
+        "Quiz",
+        "Assignment"
+      ]
+    },
+    {
+      "sequence": 31,
+      "moduleId": "M8",
+      "moduleTitle": "Modules, Packages, and Environments",
+      "topic": "Dependency management with pip",
+      "videoTitle": "M8.3 Dependency management with pip",
+      "suggestedDurationMin": 16,
+      "objectives": [
+        "Understand dependency management with pip with real examples.",
+        "Implement one guided coding walkthrough.",
+        "Complete one mini-practice challenge."
+      ],
+      "assets": [
+        "Slides",
+        "Code demo",
+        "Quiz",
+        "Assignment"
+      ]
+    },
+    {
+      "sequence": 32,
+      "moduleId": "M8",
+      "moduleTitle": "Modules, Packages, and Environments",
+      "topic": "Project layout best practices",
+      "videoTitle": "M8.4 Project layout best practices",
+      "suggestedDurationMin": 20,
+      "objectives": [
+        "Understand project layout best practices with real examples.",
+        "Implement one guided coding walkthrough.",
+        "Complete one mini-practice challenge."
+      ],
+      "assets": [
+        "Slides",
+        "Code demo",
+        "Quiz",
+        "Assignment"
+      ]
+    },
+    {
+      "sequence": 33,
+      "moduleId": "M9",
+      "moduleTitle": "Testing, Debugging, and Quality",
+      "topic": "Debugging with print and pdb",
+      "videoTitle": "M9.1 Debugging with print and pdb",
+      "suggestedDurationMin": 12,
+      "objectives": [
+        "Understand debugging with print and pdb with real examples.",
+        "Implement one guided coding walkthrough.",
+        "Complete one mini-practice challenge."
+      ],
+      "assets": [
+        "Slides",
+        "Code demo",
+        "Quiz",
+        "Assignment"
+      ]
+    },
+    {
+      "sequence": 34,
+      "moduleId": "M9",
+      "moduleTitle": "Testing, Debugging, and Quality",
+      "topic": "Unit tests with unittest/pytest",
+      "videoTitle": "M9.2 Unit tests with unittest/pytest",
+      "suggestedDurationMin": 16,
+      "objectives": [
+        "Understand unit tests with unittest/pytest with real examples.",
+        "Implement one guided coding walkthrough.",
+        "Complete one mini-practice challenge."
+      ],
+      "assets": [
+        "Slides",
+        "Code demo",
+        "Quiz",
+        "Assignment"
+      ]
+    },
+    {
+      "sequence": 35,
+      "moduleId": "M9",
+      "moduleTitle": "Testing, Debugging, and Quality",
+      "topic": "Linting and formatting (ruff/black)",
+      "videoTitle": "M9.3 Linting and formatting (ruff/black)",
+      "suggestedDurationMin": 20,
+      "objectives": [
+        "Understand linting and formatting (ruff/black) with real examples.",
+        "Implement one guided coding walkthrough.",
+        "Complete one mini-practice challenge."
+      ],
+      "assets": [
+        "Slides",
+        "Code demo",
+        "Quiz",
+        "Assignment"
+      ]
+    },
+    {
+      "sequence": 36,
+      "moduleId": "M9",
+      "moduleTitle": "Testing, Debugging, and Quality",
+      "topic": "Logging and error reporting",
+      "videoTitle": "M9.4 Logging and error reporting",
+      "suggestedDurationMin": 24,
+      "objectives": [
+        "Understand logging and error reporting with real examples.",
+        "Implement one guided coding walkthrough.",
+        "Complete one mini-practice challenge."
+      ],
+      "assets": [
+        "Slides",
+        "Code demo",
+        "Quiz",
+        "Assignment"
+      ]
+    },
+    {
+      "sequence": 37,
+      "moduleId": "M10",
+      "moduleTitle": "Advanced Python",
+      "topic": "Iterators, generators, decorators",
+      "videoTitle": "M10.1 Iterators, generators, decorators",
+      "suggestedDurationMin": 16,
+      "objectives": [
+        "Understand iterators, generators, decorators with real examples.",
+        "Implement one guided coding walkthrough.",
+        "Complete one mini-practice challenge."
+      ],
+      "assets": [
+        "Slides",
+        "Code demo",
+        "Quiz",
+        "Assignment"
+      ]
+    },
+    {
+      "sequence": 38,
+      "moduleId": "M10",
+      "moduleTitle": "Advanced Python",
+      "topic": "Context managers",
+      "videoTitle": "M10.2 Context managers",
+      "suggestedDurationMin": 20,
+      "objectives": [
+        "Understand context managers with real examples.",
+        "Implement one guided coding walkthrough.",
+        "Complete one mini-practice challenge."
+      ],
+      "assets": [
+        "Slides",
+        "Code demo",
+        "Quiz",
+        "Assignment"
+      ]
+    },
+    {
+      "sequence": 39,
+      "moduleId": "M10",
+      "moduleTitle": "Advanced Python",
+      "topic": "Concurrency: threading, multiprocessing, asyncio",
+      "videoTitle": "M10.3 Concurrency: threading, multiprocessing, asyncio",
+      "suggestedDurationMin": 24,
+      "objectives": [
+        "Understand concurrency: threading, multiprocessing, asyncio with real examples.",
+        "Implement one guided coding walkthrough.",
+        "Complete one mini-practice challenge."
+      ],
+      "assets": [
+        "Slides",
+        "Code demo",
+        "Quiz",
+        "Assignment"
+      ]
+    },
+    {
+      "sequence": 40,
+      "moduleId": "M10",
+      "moduleTitle": "Advanced Python",
+      "topic": "Performance basics and profiling",
+      "videoTitle": "M10.4 Performance basics and profiling",
+      "suggestedDurationMin": 12,
+      "objectives": [
+        "Understand performance basics and profiling with real examples.",
+        "Implement one guided coding walkthrough.",
+        "Complete one mini-practice challenge."
+      ],
+      "assets": [
+        "Slides",
+        "Code demo",
+        "Quiz",
+        "Assignment"
+      ]
+    },
+    {
+      "sequence": 41,
+      "moduleId": "M11",
+      "moduleTitle": "Databases, APIs, and Automation",
+      "topic": "SQLite/PostgreSQL basics with Python",
+      "videoTitle": "M11.1 SQLite/PostgreSQL basics with Python",
+      "suggestedDurationMin": 20,
+      "objectives": [
+        "Understand sqlite/postgresql basics with python with real examples.",
+        "Implement one guided coding walkthrough.",
+        "Complete one mini-practice challenge."
+      ],
+      "assets": [
+        "Slides",
+        "Code demo",
+        "Quiz",
+        "Assignment"
+      ]
+    },
+    {
+      "sequence": 42,
+      "moduleId": "M11",
+      "moduleTitle": "Databases, APIs, and Automation",
+      "topic": "REST API consumption with requests/httpx",
+      "videoTitle": "M11.2 REST API consumption with requests/httpx",
+      "suggestedDurationMin": 24,
+      "objectives": [
+        "Understand rest api consumption with requests/httpx with real examples.",
+        "Implement one guided coding walkthrough.",
+        "Complete one mini-practice challenge."
+      ],
+      "assets": [
+        "Slides",
+        "Code demo",
+        "Quiz",
+        "Assignment"
+      ]
+    },
+    {
+      "sequence": 43,
+      "moduleId": "M11",
+      "moduleTitle": "Databases, APIs, and Automation",
+      "topic": "Build API with FastAPI/Flask",
+      "videoTitle": "M11.3 Build API with FastAPI/Flask",
+      "suggestedDurationMin": 12,
+      "objectives": [
+        "Understand build api with fastapi/flask with real examples.",
+        "Implement one guided coding walkthrough.",
+        "Complete one mini-practice challenge."
+      ],
+      "assets": [
+        "Slides",
+        "Code demo",
+        "Quiz",
+        "Assignment"
+      ]
+    },
+    {
+      "sequence": 44,
+      "moduleId": "M11",
+      "moduleTitle": "Databases, APIs, and Automation",
+      "topic": "Automation scripts and scheduling",
+      "videoTitle": "M11.4 Automation scripts and scheduling",
+      "suggestedDurationMin": 16,
+      "objectives": [
+        "Understand automation scripts and scheduling with real examples.",
+        "Implement one guided coding walkthrough.",
+        "Complete one mini-practice challenge."
+      ],
+      "assets": [
+        "Slides",
+        "Code demo",
+        "Quiz",
+        "Assignment"
+      ]
+    },
+    {
+      "sequence": 45,
+      "moduleId": "M12",
+      "moduleTitle": "Data, AI, and Capstone",
+      "topic": "NumPy and pandas essentials",
+      "videoTitle": "M12.1 NumPy and pandas essentials",
+      "suggestedDurationMin": 24,
+      "objectives": [
+        "Understand numpy and pandas essentials with real examples.",
+        "Implement one guided coding walkthrough.",
+        "Complete one mini-practice challenge."
+      ],
+      "assets": [
+        "Slides",
+        "Code demo",
+        "Quiz",
+        "Assignment"
+      ]
+    },
+    {
+      "sequence": 46,
+      "moduleId": "M12",
+      "moduleTitle": "Data, AI, and Capstone",
+      "topic": "Visualization with matplotlib/seaborn",
+      "videoTitle": "M12.2 Visualization with matplotlib/seaborn",
+      "suggestedDurationMin": 12,
+      "objectives": [
+        "Understand visualization with matplotlib/seaborn with real examples.",
+        "Implement one guided coding walkthrough.",
+        "Complete one mini-practice challenge."
+      ],
+      "assets": [
+        "Slides",
+        "Code demo",
+        "Quiz",
+        "Assignment"
+      ]
+    },
+    {
+      "sequence": 47,
+      "moduleId": "M12",
+      "moduleTitle": "Data, AI, and Capstone",
+      "topic": "Intro to ML workflow with scikit-learn",
+      "videoTitle": "M12.3 Intro to ML workflow with scikit-learn",
+      "suggestedDurationMin": 16,
+      "objectives": [
+        "Understand intro to ml workflow with scikit-learn with real examples.",
+        "Implement one guided coding walkthrough.",
+        "Complete one mini-practice challenge."
+      ],
+      "assets": [
+        "Slides",
+        "Code demo",
+        "Quiz",
+        "Assignment"
+      ]
+    },
+    {
+      "sequence": 48,
+      "moduleId": "M12",
+      "moduleTitle": "Data, AI, and Capstone",
+      "topic": "Capstone planning, implementation, deployment",
+      "videoTitle": "M12.4 Capstone planning, implementation, deployment",
+      "suggestedDurationMin": 20,
+      "objectives": [
+        "Understand capstone planning, implementation, deployment with real examples.",
+        "Implement one guided coding walkthrough.",
+        "Complete one mini-practice challenge."
+      ],
+      "assets": [
+        "Slides",
+        "Code demo",
+        "Quiz",
+        "Assignment"
+      ]
+    }
+  ],
+  "aiNarrative": "_AI narrative skipped: set OPENAI_API_KEY to generate enhanced storytelling section._"
+}

@@ -1,0 +1,18 @@
+{
+  "name": "python-course-agent",
+  "version": "1.0.0",
+  "description": "Node.js AI agent to design a complete Python programming video course structure.",
+  "type": "module",
+  "main": "src/agent.js",
+  "scripts": {
+    "start": "node src/agent.js",
+    "check": "node --check src/agent.js",
+    "generate": "node src/agent.js --output output"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "openai": "^4.104.0"
+  }
+}
